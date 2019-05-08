@@ -5,7 +5,17 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <audio></audio>
-        <video></video>
+        <audio controls>
+            <source src="viper.ogg" type="aduio/ogg">
+            <source src="viper.mp3" type="audio/mp3">
+            <p>你的浏览器不支持HTML5音频，可点击<a href="viper.mp3"></a></p>
+        </audio>
+        <video controls width="400" height="400"
+            preload="auto"
+            poster="poster.png">
+            <source src="rabbit320.webm" type="video/webm">
+            <source src="rabbit320.mp4" type="video/mp4">
+            <p>你的浏览器不支持HTML5视频，可点击<a href="rabbit320.mp4"></a></p>
+        </video>
     </body>
 </html>
